@@ -6,7 +6,7 @@ export const help= `<pre>Only following commands are accepted :
     help : for details for accepted commands</pre>`;
 
 
-export const projects = `<pre>You can view all my projects <a href="https://github.com/guptdivy?tab=repositories">here</a><pre>`;
+export const projects = `<pre>You can view all my projects <a href="https://github.com/divyanshg10?tab=repositories">here</a><pre>`;
 
 export const personalInfo =`<pre>My name is Divyansh Gupta.
 My hometown is Agra.
