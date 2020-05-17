@@ -30,15 +30,19 @@
         height:100%;
         width:100%;
       }
+      #counter{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+      }
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" style="width:100%;height:100%;"></div>
+    <a id="counter" href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=gvaaqpx&nd=6&style=117" border="0" alt="free counter"></a>
     <script>
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-          let elem=document.getElementById("root");
-          elem.parentNode.removeChild(elem);
           document.body.innerHTML="Please use a bigger screen.";
         }
     </script>
