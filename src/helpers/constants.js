@@ -2,8 +2,8 @@ export const help= `<pre>Only following commands are accepted :
     pwd : for knowing the present working directory
     ls [path]: for listing files and directories
     cd path: for changing directory
-    cat filename : for display the file
-    help : for details for accepted commands</pre>`;
+    cat filename : to display the file
+    help : for details regarding valid commands</pre>`;
 
 
 export const projects = `<pre>You can view all my projects <a href="https://github.com/divyanshg10?tab=repositories">here</a><pre>`;
