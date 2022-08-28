@@ -2,8 +2,23 @@ export const help= `<pre>Only following commands are accepted :
     pwd : for knowing the present working directory
     ls [path]: for listing files and directories
     cd path: for changing directory
-    cat filename : to display the file
-    help : for details regarding valid commands</pre>`;
+    cat filename : to display the content of the file
+    help : for details regarding valid commands
+    
+Here each directory consists of two types of objects :
+    1) with .file extension
+    2) with .dir extension
+
+Objects with .dir extension are directories which can be accessed
+using cd command.
+Example : cd about.dir
+
+Objects with .file extension are files, whose content can be 
+seen using cat command
+Example : cat about.dir
+
+I hope you have a joyful experience :)
+    </pre>`;
 
 
 export const projects = `<pre>You can view all my projects <a href="https://github.com/divyanshg10?tab=repositories">here</a><pre>`;
