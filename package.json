@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "me.shell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://guptdivy.github.io/react-profile",
+  "homepage": "http://divyanshg10.github.io/me.shell",
   "dependencies": {
     "cra-template": "1.0.3",
     "react": "^16.13.1",
